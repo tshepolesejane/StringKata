@@ -1,0 +1,17 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "karma start test/karma.conf.js --single-run"
+  },
+  "dependencies": {
+    "brew": "0.0.8",
+    "jasmine": "^2.4.1"
+  },
+  "devDependencies": {
+    "karma": "^0.13.22",
+    "karma-cli": "^0.1.2",
+    "karma-jasmine": "^0.3.8",
+    "karma-phantomjs-launcher": "^1.0.0"
+  }
+}
